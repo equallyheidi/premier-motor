@@ -1,10 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
 
-function App() {
+import React from 'react'
+import Categories from './components/categories/categories.component';
+
+const App = () => {
   return (
-    <div>Plööplöö</div>
+    <Categories />
   );
-}
+};
 
 export default App;
