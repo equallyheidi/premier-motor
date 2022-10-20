@@ -1,7 +1,7 @@
 import React from 'react'
-import '../../categories/categories.styles.scss'
+//import '../../categories/categories.styles.scss'
 import { Outlet } from 'react-router'
-import CategoryItem from '../../categories/categories.component'
+import CategoryItem from '../../components/categories/categories.component'
 
 const Home = () => {
 
