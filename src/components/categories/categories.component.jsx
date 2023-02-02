@@ -1,15 +1,48 @@
 import React from 'react'
-import './categories.styles.scss'
-import CategoryItem from '../category-item/category-item.component';
+import { DirectoryContainer } from './categories.styles'
+import DirectoryItem from '../directory-item/directory-item.component';
+
+const categories = [
+  {
+    id: 1,
+    title: "Vehicles",
+    imageUrl: "/vehicles.jpg",
+    route: "shop/vehicles",
+  },
+  {
+    id: 2,
+    title: "Parts",
+    imageUrl: "/parts.jpg",
+    route: "shop/parts",
+  },
+  {
+    id: 3,
+    title: "Accessories",
+    imageUrl: "/accessories.jpg",
+    route: "shop/accessories",
+  },
+  {
+    id: 4,
+    title: "Clothing",
+    imageUrl: "/clothing.jpg",
+    route: "shop/clothing",
+  },
+  {
+    id: 5,
+    title: "Gear",
+    imageUrl: "/gear.jpg",
+    route: "shop/gear",
+  }
+];
 
 
-const Categories = ({ categories }) => {
+const Categories = () => {
       return (
-        <div className='categories-container'>
+        <DirectoryContainer>
           {categories.map((category) => (
-            <CategoryItem key={category.id} category={category} />
+            <DirectoryItem key={category.id} category={category} />
           ))}
-        </div>
+        </DirectoryContainer>
       );
 }
 
