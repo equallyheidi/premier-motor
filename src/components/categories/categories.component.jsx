@@ -35,6 +35,7 @@ const categories = [
   }
 ];
 
+//https://i.ibb.co/KmSkMbH/striped-sweater.png
 
 const Categories = () => {
       return (
