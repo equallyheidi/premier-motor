@@ -23,12 +23,12 @@ import {
 } from 'firebase/firestore';
 
 const firebaseConfig = {
-    apiKey: "AIzaSyDNSDmuGmgyQ0qtAQnzVNIBDrGmepHUhjg",
-    authDomain: "premier-motor-db.firebaseapp.com",
-    projectId: "premier-motor-db",
-    storageBucket: "premier-motor-db.appspot.com",
-    messagingSenderId: "1027278319437",
-    appId: "1:1027278319437:web:12e852c39f686d78c49104"
+    apiKey: process.env.REACT_APP_APIKEY,
+    authDomain: process.env.REACT_APP_AUTH_DOMAIN,
+    projectId: process.env.REACT_APP_PROJECTID,
+    storageBucket: process.env.REACT_APP_STORAGEBUCKET,
+    messagingSenderId: process.env.REACT_APP_MESSAGINGSENDERID,
+    appId: process.env.REACT_APP_APPID
   };
   
   // Initialize Firebase
