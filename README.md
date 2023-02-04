@@ -5,7 +5,7 @@ Full Stack E-Commerce website where you can browse categories of products, add p
 build with MERN Stack using Firebase, React.js, React-Hooks and Context API for State Management, React routing, SCSS and later converted to Styled-Components for styling.
 &nbsp;
 
-<h3 align="center"><a href="https://glittering-biscochitos-8b54ae.netlify.app/"> :link: Live Demo</a></h3>
+<h3 align="center"><a href="https://master--premier-motor.netlify.app/"> :link: Live Demo</a></h3>
 &nbsp;
 
 ![front page](https://i.ibb.co/z4FptZ7/Screenshot-2023-02-04-at-14-34-41.png)
